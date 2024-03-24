@@ -22,6 +22,10 @@ body {
   position: relative;
   max-width: 1120px;
 }
+
+p {
+  margin: 20px;
+}
 @layer base {
   body {
     @apply text-gray-100;
