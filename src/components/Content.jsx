@@ -1,7 +1,7 @@
 const Content = () => {
   return (
-    <section>
-      <div>
+    <section className="flex-center">
+      <article className="w-1/2">
         <p>
           我在2019年7月2号，正式毕业来到广州视源股份（CVTE）工作，岗位是Web前端工程师。
         </p>
@@ -116,7 +116,7 @@ const Content = () => {
         <p>
           我们团队的目标是基于openKylin打造一个更适合教育场景的国产化操作系统。我的职责是自动化测试方案的预研和落地；UKUI桌面组件的定制化开发。
         </p>
-      </div>
+      </article>
     </section>
   );
 };
